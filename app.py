@@ -7,7 +7,8 @@ import streamlit as st
 def main():
     st.header("GAM Rating Table to Scorecard")
     st.markdown(
-        """ This Demo app can be used to convert any DataRobot Rating Table GAM model to Score card with preset scores.
+        """ This app can be used to convert any DataRobot Rating Table GAM model to Score card with preset scores.
+         For more details on GAM and scorecards refer to this doc - https://docs.datarobot.com/en/docs/modeling/analyze-models/describe/rating-table.html#rating-tables
 """
     )
     st.header("Enter Credential Details")
